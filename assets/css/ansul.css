@@ -1,0 +1,92 @@
+.logo {
+    width: 80% !important;
+    
+}
+
+ 
+.has-user .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-user .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.8rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+ 
+ .contact-bg{
+    background:#cc2020;
+    padding: 20px;
+    border:1px solid #cc2020;
+    border-radius: 10px;
+    margin-top: -50px;
+    width:90%;
+ }
+ .contact-bg 
+ .form-control{
+  margin-top: 15px;
+  line-height: 2;
+ }
+ .contact-bg .footerp{
+    text-align:center;
+    font-size:16px;
+    color:white;
+    font-family:'Source Sans Pro',sans-serif !important;
+    margin-top: 10px;
+ }
+
+
+ .contact-bg .uppeer-p{    
+    font-size:13px;
+    color:white;
+    font-family:'Source Sans Pro',sans-serif !important;
+    margin-top:2px;
+ }
+
+
+ .contact-bg h2{
+    color:white !important;
+    font-family:'Source Sans Pro',sans-serif !important;
+    margin: 0px !important;
+ }
+
+body
+{
+  font-family:'Source Sans Pro',sans-serif !important;
+}
+
+@media (max-width: 768px) {
+  .x {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-des1 {
+    margin-left:-150px;
+    float: right;    
+    width: 29% !important;
+    padding: 10px;
+}
+.logo {
+    width: 100% !important;
+}
+  .top-des2 {
+      margin-right:-150px;                
+      width: 71%;
+  }        
+}
+
+
+
+.own-f i{
+  color:#cc2020;
+  font-size:18px;
+  margin-right:8px;
+}
