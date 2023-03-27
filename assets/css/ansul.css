@@ -32,27 +32,29 @@
   margin-top: 15px;
   line-height: 2;
  }
- .contact-bg .footerp{
+
+.contact-bg .footerp{
     text-align:center;
     font-size:12px;
     color:white;
-    font-family: 'PF Handbook Pro', sans-serif;
+    font-family:'Source Sans Pro',sans-serif !important;
     margin-top: 10px;
  }
 
 
- .contact-bg .uppeer-p{    
+.contact-bg .uppeer-p{    
     font-size:12px;
     color:white;
-    font-family: 'PF Handbook Pro', sans-serif;
+    font-family:'Source Sans Pro',sans-serif !important;
     margin-top:2px;
  }
 
 
  .contact-bg h2{
     color:white !important;
-    font-family: 'PF Handbook Pro', sans-serif;
+    /* font-family: 'PF Handbook Pro' !important; */
     margin: 0px !important;
+    font-weight: 700 !important;
  }
 
  
@@ -100,4 +102,120 @@
 .ind ul{
     padding-left: 0rem;
 
+}
+
+.merax{
+    font-weight: 400;
+    font-size:20px;
+    font-family:'Source Sans Pro',sans-serif !important;
+}
+
+
+
+
+
+
+
+
+
+
+.aarox{
+    margin-left:22px;
+  }
+
+  .counterx {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -100;
+    left: auto;
+    width: 50%;
+}
+
+.counterx ul.count-list {
+    padding: 10px 0;
+    height: 90px;
+    margin-bottom: 0;
+    background: #fff;
+    border-radius: 3px 0 0 2px;
+    text-align: left;
+}
+
+.counterx .count-list:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    bottom: 0;
+    left: -37px;
+    height: 134px;
+    width: 38px;
+    background: url(https://www.dss-hr.com/public/front/images/arrow-1.png) no-repeat;
+}
+
+.counterx ul.count-list li:first-child {
+    padding-left: 16px;
+}
+
+.counterx ul.count-list li {
+    display: inline-block;
+    position: relative;
+    padding: 0 16px;
+    text-align: center;
+}
+.counterx ul.count-list li:first-child:before {
+    width: 0;
+}
+.counterx ul.count-list li:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #969696;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.counterx ul.count-list li .value {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.counterx * {
+    box-sizing: border-box;
+}
+
+ 
+.counterx ul.count-list li .value span.count {
+    position: relative;
+    color: #333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+}
+
+.counterx ul.count-list li .value span.count:after {
+    position: relative;
+    content: "+";
+    display: inline-block;
+}
+
+ .counterx ul.count-list li .title {
+    color: #c8150f;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+}
+body{
+    text-align:justify;
+}
+
+.heading-x{
+    text-transform: uppercase;
+    font-family:'Source Sans Pro',sans-serif !important;
+    font-weight: 400;
+    margin-top:10px;
 }
