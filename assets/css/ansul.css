@@ -25,8 +25,7 @@
     padding: 20px;
     border:1px solid #cc2020;
     border-radius: 10px;
-    margin-top: -50px;
-    width:90%;
+   
  }
  .contact-bg 
  .form-control{
@@ -35,31 +34,28 @@
  }
  .contact-bg .footerp{
     text-align:center;
-    font-size:16px;
+    font-size:12px;
     color:white;
-    font-family:'Source Sans Pro',sans-serif !important;
+    font-family: 'PF Handbook Pro', sans-serif;
     margin-top: 10px;
  }
 
 
  .contact-bg .uppeer-p{    
-    font-size:13px;
+    font-size:12px;
     color:white;
-    font-family:'Source Sans Pro',sans-serif !important;
+    font-family: 'PF Handbook Pro', sans-serif;
     margin-top:2px;
  }
 
 
  .contact-bg h2{
     color:white !important;
-    font-family:'Source Sans Pro',sans-serif !important;
+    font-family: 'PF Handbook Pro', sans-serif;
     margin: 0px !important;
  }
 
-body
-{
-  font-family:'Source Sans Pro',sans-serif !important;
-}
+ 
 
 @media (max-width: 768px) {
   .x {
@@ -89,4 +85,19 @@ body
   color:#cc2020;
   font-size:18px;
   margin-right:8px;
+}
+
+
+.ind img{
+    width:8%;
+}
+
+.ind ul li{
+    list-style-type: none;
+}
+
+ 
+.ind ul{
+    padding-left: 0rem;
+
 }

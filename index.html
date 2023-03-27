@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link href="https://fonts.cdnfonts.com/css/pf-handbook-pro" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+  <link href=" https://cdn.jsdelivr.net/npm/source-sans-pro@3.6.0/source-sans-pro.min.css" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +28,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/ansul.css" rel="stylesheet">
+  
+ 
+
 
   <!-- =======================================================
   * Template Name: BizLand
@@ -36,6 +41,96 @@
   ======================================================== -->
 </head>
 <style>
+  .aarox{
+    margin-left:22px;
+  }
+
+  .counterx {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -100;
+    left: auto;
+    width: 50%;
+}
+
+.counterx ul.count-list {
+    padding: 10px 0;
+    height: 90px;
+    margin-bottom: 0;
+    background: #fff;
+    border-radius: 3px 0 0 2px;
+    text-align: left;
+}
+
+.counterx .count-list:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    bottom: 0;
+    left: -37px;
+    height: 134px;
+    width: 38px;
+    background: url(https://www.dss-hr.com/public/front/images/arrow-1.png) no-repeat;
+}
+
+.counterx ul.count-list li:first-child {
+    padding-left: 16px;
+}
+
+.counterx ul.count-list li {
+    display: inline-block;
+    position: relative;
+    padding: 0 16px;
+    text-align: center;
+}
+.counterx ul.count-list li:first-child:before {
+    width: 0;
+}
+.counterx ul.count-list li:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #969696;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.counterx ul.count-list li .value {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.counterx * {
+    box-sizing: border-box;
+}
+
+ 
+.counterx ul.count-list li .value span.count {
+    position: relative;
+    color: #333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+}
+
+.counterx ul.count-list li .value span.count:after {
+    position: relative;
+    content: "+";
+    display: inline-block;
+}
+
+ .counterx ul.count-list li .title {
+    color: #c8150f;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+}
 
 </style>
 <body>
@@ -53,82 +148,46 @@
 
       <div class="contact-info d-flex align-items-center top-des2">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:enquiry@dss-hr.com">enquiry@dss-hr.com</a></i>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 
+        <span class="aarox"> | </span>
         <i class="bi bi-phone d-flex align-items-center ms-4"><span> +91-11-40410000</span></i>
       </div>
       
     </div>
   </section>
 
-  <!-- ======= Header ======= -->
-  <!-- <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">BizLand<span>.</span></a></h1>
-      
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav> 
-
-    </div>
-  </header>  -->
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container"  data-aos-delay="100">
       <div class="row">
-        <div class="col-md-6 offset-md-1">
-          <!-- <h1>Get smart <br/>with your hiring.<br/>Team up with the <span>Best <br/>Overseas Recruitment </span><br/>Consultants today.</h1>       -->
+        <div class="col-md-6 offset-md-1" style="margin-top:70px !important">
+          <h1 class="text-white">Get smart <br/>with your hiring.<br/>Team up with the <span>Best <br/>Overseas Recruitment </span><br/>Consultants today.</h1>      
         </div>
 
-    <div class="col-md-5">
-      <div class="contact-bg">
+    <div class="col-md-4">
+      <div class="contact-bg" style="margin-bottom:200px !important;margin-top:70px !important">
           <h2>GET IN TOUCH</h2>
           <p class="uppeer-p">MAKE A QUICK QUERY AND AVAIL EXPERT COUNSELLING</p>
-          <br/>
+         
       <form action="#" method="pos">
         <div class="form-group has-user">
           <span class="fa fa-user form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Name">
+          <input type="text" class="form-control" placeholder="Name *">
         </div>
         <div class="form-group has-user">
           <span class="fa fa-phone form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Phone">
+          <input type="text" class="form-control" placeholder="Phone *">
         </div>
 
         <div class="form-group has-user">
           <span class="fa fa-envelope form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Email">
+          <input type="text" class="form-control" placeholder="Email *">
         </div>
 
         <div class="form-group has-user">
           <span class="fa fa-calendar form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Date of Birth">
+          <input type="date" class="form-control" placeholder="Date of Birth *">
         </div>
         <br/>
         <div class="form-group">
@@ -136,16 +195,43 @@
         </div>
       
     </form>
-    <br/>
+     
     <p class="footerp">DSS does not sell, share, or trade student information. 
-      Your privacy is very important to us.</p>
+      <br/>Your privacy is very important to us.</p>
   </div>
-    </div>
+ 
 
+  <div class="counterx" >
+    <ul class="count-list">
+      <li class="">
+       
+       <div class="value"><span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter count"></span></div>
+       <div class="title">Years in Business</div>
+      </li>
+      <li class="">
+       <div class="value">
+        <span data-purecounter-start="0" data-purecounter-end="400000" data-purecounter-duration="1" class="purecounter count"></span>
+        </div>
+       <div class="title">Promises Delivered</div>
+      </li>
+      <li class="">
+       <div class="value">
+        <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter count"></span>
       </div>
+       <div class="title">Countries Served</div>
+      </li>
+      <li class="">
+       <div class="value">
+        <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter count"></span>
+       </div>
+       <div class="title">Teams</div>
+      </li>
+   </ul>
 
-
-
+  </div> 
+    </div> 
+      </div>
+ 
     </div>
   </section><!-- End Hero -->
 
@@ -159,18 +245,17 @@
 
        
         <div class="row">
-          <div class="col-lg-3 offset-md-1"  data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
+          <div class="col-lg-4"  data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/about.png" class="img-fluid" >
           </div>
-          <div class="col-lg-7    justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-7 offset-md-1   justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3 style="text-transform: uppercase;font-family:'Source Sans Pro',sans-serif !important;">About us</h3>
             <p style="text-transform: uppercase;font-weight: 800;font-size:20px;font-family:'Source Sans Pro',sans-serif !important;">
                 45 years old…45 years young
             </p>
              
-            <p class="text-black">
-           
-              <img src="assets/img/icon.png" class="img-responsive"/>
+            <p class="text-black">           
+              <img src="assets/img/icon.png" class="img-responsive" style="margin-left:-7px;margin-bottom:10px"/>
               <br/>
               
               Dynamic Staffing Services (DSS) is an International Recruitment Services provider incorporated in the UK, with its office network strategically located in areas of rapid construction which gives us access to the best in class talent. A team of 315+ members spread across the UK, Dubai, Abu Dhabi, Qatar, KSA, India, Romania, Slovenia & Croatia are experts in their craft of talent identification and international placement.</p> 
@@ -188,15 +273,15 @@
 
         <div class="row skills-content">
 
-          <div class="col-lg-6 offset-md-1">
+          <div class="col-lg-7">
             <h3 class="text-warning">MISSION & VISION</h3>
-            <img src="assets/img/icon2.png" class="img-responsive"/>  
+            <img src="assets/img/icon2.png" class="img-responsive" style="margin-left:-14px;margin-bottom:10px"/>  
             <P class="text-white">Our mission is to try and solve skill shortages and curtail attrition rates in various sectors within the UK.</P>
 <P class="text-white">Our forte is that we don’t do recruitment from the same pond, which means we don’t recruit from within the country. We recruit the most qualified candidates from overseas with the best matching skill sets in the most cost-effective way.</P>
                  
           </div>
 
-          <div class="col-lg-3 offset-md-1">
+          <div class="col-lg-4 offset-md-1">
             <img src="assets/img/misson.png" class="img-responsive" style="width:100%"/> 
           </div>
 
@@ -211,18 +296,39 @@
 
         <div class="row">
 
-          <div class="col-lg-3 offset-md-1">
+          <div class="col-lg-4">
             <img src="assets/img/ab2.png" class="img-responsive" style="width:100%"/> 
           </div>
 
-
-          <div class="col-lg-6 offset-md-1">
+          <div class="col-lg-7 offset-md-1">
             <h3 class="text-black">Industries we recruit for</h3>
-            <img src="assets/img/icon.png" class="img-responsive"/>  
+            <img src="assets/img/icon.png" class="img-responsive" style="margin-left:-5px;margin-bottom:20px"/>  
             <P class="text-black" style="font-size:18px">We’re able to help our clients avoid delays in their projects due to unfulfilled vacancies. We have access to a strong database of highly qualified candidates for white collar & blue collar positions.</P>
-            <img src="assets/img/ab3.png" class="img-responsive x"/>                    
-          </div>
+               
+            <div class="row ind" style="margin-top:50px">
+              <div class="col-md-6">
+                    <ul>
+                      <li><p><img src="assets/img/s1.png" class="img-responsive"/> Construction</p></li>
+                      <li><p><img src="assets/img/s2.png" class="img-responsive"/> Contractors & Sub-contractor</p></li>
+                      <li><p><img src="assets/img/s3.png" class="img-responsive"/> Oil & Gas</p></li>
+                      <li><p><img src="assets/img/s4.png" class="img-responsive"/> Logistics & Haulage</p></li>
+                    </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><p><img src="assets/img/s5.png" class="img-responsive"/> Agriculture</p></li>
+                  <li><p><img src="assets/img/s6.png" class="img-responsive"/> Contractors & Sub-contractor</p></li>
+                  <li><p><img src="assets/img/s7.png" class="img-responsive"/> Retail</p></li>
+                  <li><p><img src="assets/img/s8.png" class="img-responsive"/> Hospitality</p></li>
+                </ul>
+              </div>
+            </div>
 
+
+
+
+          </div>
+          
          
         </div>
 
@@ -303,9 +409,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 footer-links">
-            <h4>CORPORATE INFO</h4>
-
-            
+            <h4>CORPORATE INFO</h4>            
             <ul>
               <li> <a href="https://www.dss-hr.com/corporateinfo"> Company Profile</a></li>
               <li> <a href="https://www.dss-hr.com/corporateinfo/message"> Mission & Vision </a></li>
@@ -325,7 +429,7 @@
 
           </div>
 
-          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 footer-links">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 footer-links">
             <h4> SERVICES</h4>                         
             <ul>
               <li> <a href="https://www.dss-hr.com/services/white-collar-recruitment"> White Collar Recruitment</a></li>
