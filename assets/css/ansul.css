@@ -127,7 +127,7 @@
     position: absolute;
     z-index: 1;
     bottom: 0;
-    right: -100;
+    right: -100px;
     left: auto;
     width: 50%;
 }
